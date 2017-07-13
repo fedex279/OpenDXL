@@ -36,14 +36,14 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 
-url = 'https://kali:8834'
+url = 'https://localhost:8834'
 verify = False
-username = 'fedex279'
-password = 'nessus'
+username = 'username'
+password = 'password'
 token =''
 #API keys and secret keys are obtained from Nessus user account information
-API_KEYS = 'accessKey=9a2ecf600445e8b05258f5b0bdb5425006d3384bcbf3bea47fc7cf6f8d8102c3'
-secret_key = 'e3181f7c63ef130fb6e0ae8ca4c7bc8f3c43531997f55fa619e8ac7bcd8925f5'
+API_KEYS = 'accessKey=(access key for your Nessus account)'
+secret_key = '(secret key for the Nessus account)'
 #define dxl topics for the service
 service_name = "/tenable/service/nessus"
 service_newscan = service_name + "/new_scan"
