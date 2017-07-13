@@ -31,3 +31,4 @@ Both of these projects use OpenDXL, and as such have some prerequisites:
     - This code also uses [common.py](https://github.com/opendxl/opendxl-client-python/blob/master/examples/common.py) to setup logging and read the config file, so please download the file and put it in the same directory as the script you are running, or in its parent directory.
 - McAfee Data Exchange Layer Broker v3.x+: MFE DXL Fabric Message broker
 - McAfee ePolicy Orchestrator v5.3+: Single console for Endpoint Security Management
+- Scanner nodes with Nmap, Python 2.7.X, and OpenSSL installed
